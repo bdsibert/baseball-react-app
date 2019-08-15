@@ -1,17 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { HashRouter, Switch, Route} from 'react-router-dom';
 
 import Stat from "./Stat";
 
 import App from"../App";
 
 const Router = () => (
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
     <Switch>
     <Route path="/" component={App} exact/>
     <Route path="/stat/:id" component={Stat}/>
     </Switch>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 export default Router;
