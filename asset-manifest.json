@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/baseball-react-app/static/css/main.29e4e5ac.chunk.css",
-    "main.js": "/baseball-react-app/static/js/main.1a72990f.chunk.js",
-    "main.js.map": "/baseball-react-app/static/js/main.1a72990f.chunk.js.map",
+    "main.js": "/baseball-react-app/static/js/main.64a0ae64.chunk.js",
+    "main.js.map": "/baseball-react-app/static/js/main.64a0ae64.chunk.js.map",
     "runtime~main.js": "/baseball-react-app/static/js/runtime~main.fdea3757.js",
     "runtime~main.js.map": "/baseball-react-app/static/js/runtime~main.fdea3757.js.map",
     "static/js/2.dd93a481.chunk.js": "/baseball-react-app/static/js/2.dd93a481.chunk.js",
     "static/js/2.dd93a481.chunk.js.map": "/baseball-react-app/static/js/2.dd93a481.chunk.js.map",
     "index.html": "/baseball-react-app/index.html",
-    "precache-manifest.8ed53c780bae60b889f344fd616fcb59.js": "/baseball-react-app/precache-manifest.8ed53c780bae60b889f344fd616fcb59.js",
+    "precache-manifest.c91b321bbe4a747b174974dd8d182a40.js": "/baseball-react-app/precache-manifest.c91b321bbe4a747b174974dd8d182a40.js",
     "service-worker.js": "/baseball-react-app/service-worker.js",
     "static/css/main.29e4e5ac.chunk.css.map": "/baseball-react-app/static/css/main.29e4e5ac.chunk.css.map"
   }
