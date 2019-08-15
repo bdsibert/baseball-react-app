@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80a18d4adc2a61f224ff44229565f7d8",
+    "revision": "cb2a54cbc489b9107f89fa62e031f8e8",
     "url": "/baseball-react-app/index.html"
   },
   {
-    "revision": "c68e35eb27baf0487cd7",
+    "revision": "2a8065071242ba849256",
     "url": "/baseball-react-app/static/css/main.29e4e5ac.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baseball-react-app/static/js/2.2e43b78a.chunk.js"
   },
   {
-    "revision": "c68e35eb27baf0487cd7",
-    "url": "/baseball-react-app/static/js/main.701710c8.chunk.js"
+    "revision": "2a8065071242ba849256",
+    "url": "/baseball-react-app/static/js/main.3da66866.chunk.js"
   },
   {
     "revision": "d3e39f9a1de16627abd1",
