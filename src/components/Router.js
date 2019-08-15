@@ -6,7 +6,7 @@ import Stat from "./Stat";
 import App from"../App";
 
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
     <Switch>
     <Route path="/" component={App} exact/>
     <Route path="/stat/:id" component={Stat}/>
