@@ -12,7 +12,7 @@ class App extends Component {
   getProfile = async (e) => {
     const playerSearch=e.target.elements.playerSearch.value;
     e.preventDefault();
-    const api_call= await fetch(`http://lookup-service-prod.mlb.com/json/named.search_player_all.bam?sport_code='mlb'&active_sw='Y'&name_part='${playerSearch}%25'`);
+    const api_call= await fetch(`https://lookup-service-prod.mlb.com/json/named.search_player_all.bam?sport_code='mlb'&active_sw='Y'&name_part='${playerSearch}%25'`);
     const data = await api_call.json();
     
     if(data.search_player_all.queryResults.totalSize <=1){
@@ -28,7 +28,7 @@ class App extends Component {
     //console.log(this.state.profiles);
   }
 
-  componentDidMount = () => {
+  /*componentDidMount = () => {
     const json = localStorage.getItem("profiles");
     const profiles=JSON.parse(json);
     this.setState({profiles});
@@ -37,7 +37,7 @@ class App extends Component {
     const profiles = JSON.stringify(this.state.profiles);
     localStorage.setItem("profiles", profiles);
   }
-  
+  */
   
   render(){
     return (

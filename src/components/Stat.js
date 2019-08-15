@@ -12,7 +12,7 @@ class Stat extends React.Component {
     componentDidMount = async () => {
     const playerSearch = this.props.location.state.profile;
     console.log(playerSearch);
-    const req= await fetch(`http://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2019'&player_id='${playerSearch}'`);
+    const req= await fetch(`https://lookup-service-prod.mlb.com/json/named.sport_hitting_tm.bam?league_list_id='mlb'&game_type='R'&season='2019'&player_id='${playerSearch}'`);
     const res = await req.json();
     console.log(res);
     this.setState({ activeStat: res.sport_hitting_tm.queryResults.row});

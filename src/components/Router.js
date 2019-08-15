@@ -6,7 +6,7 @@ import Stat from "./Stat";
 import App from"../App";
 
 const Router = () => (
-    <HashRouter basename="/">
+    <HashRouter basename="baseball-react-app">
     <Switch>
     <Route path="/" component={App} exact/>
     <Route path="/stat/:id" component={Stat}/>
